@@ -1,4 +1,6 @@
-on: release
+on:
+  release:
+    types: [created]
 
 name: Create and Upload Release Assets
 
